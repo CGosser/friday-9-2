@@ -1,0 +1,21 @@
+.smallFeaturedContainer{
+  display:flex;
+}
+.smallerFeaturedArticles{
+  width: 360px;
+  justify-content: space-between;
+  div{
+    font-size:1.188rem;
+    border-bottom: 1px solid #c9c9c9;
+  }
+  p{
+    font-size:.9375rem;
+  }
+  ul{
+    display:flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    padding-left:0px;
+  }
+
+}
