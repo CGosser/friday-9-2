@@ -16,7 +16,7 @@ featuredArticle: Article = new Article("horror movie character logic that falls 
     var mainDiv = document.getElementsByClassName("bigFeatured")
     console.log(this)
     mainDiv[0].style.backgroundImage = "url(" +'"' + this.featuredArticle.imageUrl + '"' + ")"
-    console.log("url(" +'"' + this.featuredArticle.imageUrl + '"' + ")")
+
   }
 
 }
