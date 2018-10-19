@@ -1,6 +1,6 @@
 <div class="smallFeaturedContainer">
   <div class="smallerFeaturedArticles" *ngFor="let currentArticle of articles">
-    <img [src]="url({{currentArticle.imgUrl}})" alt="article image">
+    <!-- <img [src]={{currentArticle.urlTagger()}}) alt="article image"> -->
     <h1>{{currentArticle.title}}</h1>
     <p>currentArticle.content</p>
     <ul>
