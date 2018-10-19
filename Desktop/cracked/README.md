@@ -5,8 +5,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## planning
 
   * use angular CLI to generate project with scss isntead of css
-  * create featured articles section
-  * create articles list
+  * create featured articles section (big featured article and smaller featured articles will probably be seperate components)
+  * create articles list (articles will probably be components)
   * create side bar
   * create top bar
   * articles will all have the same class
