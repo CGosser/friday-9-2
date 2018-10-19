@@ -1,3 +1,13 @@
-<p>
-  viral works!
-</p>
+<div class="articlesListContainer">
+  <div class="articlesList" *ngFor="let currentArticle of articles">
+    <img [src]=currentArticle.imageUrl alt="article image">
+    <div>
+    <h3>{{currentArticle.title}}</h3>
+    <ul>
+      <li>by {{currentArticle.author}} </li>
+      <li> / </li>
+      <li> {{currentArticle.date}}</li>
+    </ul>
+  </div>
+  </div>
+</div>
