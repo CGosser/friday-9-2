@@ -1,3 +1,12 @@
-<p>
-  smaller-featured works!
-</p>
+<div class="smallFeaturedContainer">
+  <div class="smallerFeaturedArticles" *ngFor="let currentArticle of articles">
+    <img [src]="url({{currentArticle.imgUrl}})" alt="article image">
+    <h1>{{currentArticle.title}}</h1>
+    <p>currentArticle.content</p>
+    <ul>
+      <li>{{currentArticle.date}}</li>
+      <li>/</li>
+      <li>{{currentArticle.comments}}</li>
+    </ul>
+  </div>
+</div>
