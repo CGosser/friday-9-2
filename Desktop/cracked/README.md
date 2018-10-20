@@ -16,6 +16,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   * articles will all have the same class
     * sort of
 
+## setup
+
+```
+git clone https://github.com/CGosser/friday-9.git
+cd fakepath/friday-9
+npm install
+ng serve --open
+```
 
 ## screenshots
 
