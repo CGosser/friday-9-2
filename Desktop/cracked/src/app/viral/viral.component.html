@@ -1,7 +1,8 @@
-<div class="articlesListContainer">
-  <div class="articlesList" *ngFor="let currentArticle of articles">
+<div class="viralContainer">
+  <div class="viral" *ngFor="let currentArticle of articles; let i = index">
     <img [src]=currentArticle.imageUrl alt="article image">
     <div>
+      <h1>{{i+1}}</h1>
     <h3>{{currentArticle.title}}</h3>
     <ul>
       <li>by {{currentArticle.author}} </li>

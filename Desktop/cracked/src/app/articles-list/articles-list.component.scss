@@ -1,9 +1,15 @@
+.articlesListContainer{
+  width:740px;
+}
 .articlesList{
   display:flex;
-  width:741px;
+  width:710px;
   height: 140px;
   margin-top:20px;
   margin-bottom:20px;
+  img{
+    width:264px;
+  }
   ul{
     display:flex;
     list-style-type: none;

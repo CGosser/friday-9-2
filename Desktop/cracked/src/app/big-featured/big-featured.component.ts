@@ -12,9 +12,7 @@ featuredArticle: Article = new Article("horror movie character logic that falls 
   constructor() { }
 
   ngOnInit() {
-    console.log(document.getElementsByClassName("bigFeatured"))
     var mainDiv = document.getElementsByClassName("bigFeatured")
-    console.log(this)
     mainDiv[0].style.backgroundImage = this.featuredArticle.urlTagger()
 
   }
