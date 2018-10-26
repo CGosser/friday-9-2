@@ -17,7 +17,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     * sort of
 ### planning phase 2
   * start using firebase to store articles
-  
+  * deploy to firebase
 
 
 ## setup
