@@ -15,6 +15,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   * create top bar
   * articles will all have the same class
     * sort of
+### planning phase 2
+  * start using firebase to store articles
+  
+
 
 ## setup
 
