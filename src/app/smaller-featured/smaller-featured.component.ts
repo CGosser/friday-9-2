@@ -6,15 +6,15 @@ import { FirebaseListObservable } from 'angularfire2/database';
 @Component({
   selector: 'app-smaller-featured',
   templateUrl: './smaller-featured.component.html',
-  styleUrls: ['./smaller-featured.component.scss']
+  styleUrls: ['./smaller-featured.component.scss'],
+  providers: [ContentService]
 })
 export class SmallerFeaturedComponent implements OnInit {
-
-
   articles: FirebaseListObservable<any[]>;
-  constructor(private ContentService: ContentService) { }
+  constructor(private contentService: ContentService) { }
 
   ngOnInit() {
+    this.articles = this.contentService.getArticles();
   }
 
 }

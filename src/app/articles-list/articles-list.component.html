@@ -1,5 +1,5 @@
 <div class="articlesListContainer">
-  <div class="articlesList | async" *ngFor="let currentArticle of articles">
+  <div class="articlesList" *ngFor="let currentArticle of articles | async">
     <img [src]=currentArticle.imageUrl alt="article image">
     <div>
       <h3>{{currentArticle.title}}</h3>
