@@ -8,6 +8,7 @@ import { ViralComponent } from './viral/viral.component';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { FormsModule }  from '@angular/forms';
 
 
 export const firebaseConfig = {
