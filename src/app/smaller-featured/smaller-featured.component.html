@@ -1,5 +1,5 @@
 <div class="smallFeaturedContainer">
-  <div class="smallerFeaturedArticles" *ngFor="let currentArticle of articles | async">
+  <div class="smallerFeaturedArticles" *ngFor="let i = index; let currentArticle of articles | async | slice: 0: 2" >
     <img [src]=currentArticle.imageUrl alt="article image">
     <div>
 
