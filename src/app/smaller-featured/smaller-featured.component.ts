@@ -12,7 +12,7 @@ export class SmallerFeaturedComponent implements OnInit {
 
 
   articles: FirebaseListObservable<any[]>;
-  constructor(private ContentService: AlbumService) { }
+  constructor(private ContentService: ContentService) { }
 
   ngOnInit() {
   }
