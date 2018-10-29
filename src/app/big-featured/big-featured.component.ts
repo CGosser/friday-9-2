@@ -12,8 +12,8 @@ export class BigFeaturedComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    var mainDiv = document.getElementsByClassName("bigFeatured")
-    mainDiv[0].style.backgroundImage = this.featuredArticle.urlTagger()
+    // var mainDiv = document.getElementsByClassName("bigFeatured")
+    // mainDiv[0].style.backgroundImage = this.featuredArticle.urlTagger()
 
   }
 
