@@ -1,0 +1,92 @@
+[debug] [2018-10-29T19:23:19.340Z] ----------------------------------------------------------------------
+[debug] [2018-10-29T19:23:19.340Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\owner\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2018-10-29T19:23:19.340Z] CLI Version:   6.0.0
+[debug] [2018-10-29T19:23:19.340Z] Platform:      win32
+[debug] [2018-10-29T19:23:19.340Z] Node Version:  v8.12.0
+[debug] [2018-10-29T19:23:19.340Z] Time:          Mon Oct 29 2018 12:23:19 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-10-29T19:23:19.340Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-29T19:23:19.340Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-29T19:23:19.340Z] > authorizing via signed-in user
+[debug] [2018-10-29T19:23:19.340Z] [iam] checking project cracked-7a674 for permissions ["firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]
+[debug] [2018-10-29T19:23:19.340Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/cracked-7a674:testIamPermissions  
+
+[debug] [2018-10-29T19:23:19.757Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-29T19:23:19.757Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/cracked-7a674  
+ 
+[debug] [2018-10-29T19:23:20.007Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'cracked-7a674'...
+[info] 
+[info] i  deploying database, hosting
+[info] i  database: checking rules syntax...
+[debug] [2018-10-29T19:23:20.038Z] >>> HTTP REQUEST PUT https://cracked-7a674.firebaseio.com/.settings/rules.json?dryRun=true  
+ {
+  /* Visit https://firebase.google.com/docs/database/security to learn more about security rules. */
+  "rules": {
+    ".read": true,
+    ".write": true
+  }
+}
+[debug] [2018-10-29T19:23:20.445Z] <<< HTTP RESPONSE 200
+[info] +  database: rules syntax for database cracked-7a674 is valid
+[info] i  hosting[cracked-7a674]: beginning deploy...
+[debug] [2018-10-29T19:23:20.460Z] Error: ENOTDIR invalid cwd C:\Users\owner\Desktop\friday-9-2\dist\index.html
+    at GlobSync._readdirError (C:\Users\owner\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\glob\sync.js:324:21)
+    at GlobSync._readdir (C:\Users\owner\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\glob\sync.js:290:10)
+    at GlobSync._processGlobStar (C:\Users\owner\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\glob\sync.js:350:22)
+    at GlobSync._process (C:\Users\owner\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\glob\sync.js:130:10)
+    at new GlobSync (C:\Users\owner\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\glob\sync.js:48:10)
+    at Function.globSync [as sync] (C:\Users\owner\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\glob\sync.js:26:10)
+    at listFiles (C:\Users\owner\AppData\Roaming\npm\node_modules\firebase-tools\lib\listFiles.js:5:17)
+    at _runDeploys (C:\Users\owner\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\hosting\deploy.js:29:21)
+    at module.exports (C:\Users\owner\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\hosting\deploy.js:63:12)
+    at _chain (C:\Users\owner\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:22:40)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-10-29T19:27:25.833Z] ----------------------------------------------------------------------
+[debug] [2018-10-29T19:27:25.833Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\owner\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2018-10-29T19:27:25.833Z] CLI Version:   6.0.0
+[debug] [2018-10-29T19:27:25.833Z] Platform:      win32
+[debug] [2018-10-29T19:27:25.833Z] Node Version:  v8.12.0
+[debug] [2018-10-29T19:27:25.833Z] Time:          Mon Oct 29 2018 12:27:25 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-10-29T19:27:25.833Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-29T19:27:25.833Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-29T19:27:25.833Z] > authorizing via signed-in user
+[debug] [2018-10-29T19:27:25.833Z] [iam] checking project cracked-7a674 for permissions ["firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]
+[debug] [2018-10-29T19:27:25.833Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/cracked-7a674:testIamPermissions  
+
+[debug] [2018-10-29T19:27:26.051Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-29T19:27:26.067Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/cracked-7a674  
+ 
+[debug] [2018-10-29T19:27:26.285Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'cracked-7a674'...
+[info] 
+[info] i  deploying database, hosting
+[info] i  database: checking rules syntax...
+[debug] [2018-10-29T19:27:26.316Z] >>> HTTP REQUEST PUT https://cracked-7a674.firebaseio.com/.settings/rules.json?dryRun=true  
+ {
+  /* Visit https://firebase.google.com/docs/database/security to learn more about security rules. */
+  "rules": {
+    ".read": true,
+    ".write": true
+  }
+}
+[debug] [2018-10-29T19:27:26.722Z] <<< HTTP RESPONSE 200
+[info] +  database: rules syntax for database cracked-7a674 is valid
+[info] i  hosting[cracked-7a674]: beginning deploy...
+[debug] [2018-10-29T19:27:26.753Z] Error: ENOTDIR invalid cwd C:\Users\owner\Desktop\friday-9-2\dist\index.html
+    at GlobSync._readdirError (C:\Users\owner\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\glob\sync.js:324:21)
+    at GlobSync._readdir (C:\Users\owner\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\glob\sync.js:290:10)
+    at GlobSync._processGlobStar (C:\Users\owner\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\glob\sync.js:350:22)
+    at GlobSync._process (C:\Users\owner\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\glob\sync.js:130:10)
+    at new GlobSync (C:\Users\owner\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\glob\sync.js:48:10)
+    at Function.globSync [as sync] (C:\Users\owner\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\glob\sync.js:26:10)
+    at listFiles (C:\Users\owner\AppData\Roaming\npm\node_modules\firebase-tools\lib\listFiles.js:5:17)
+    at _runDeploys (C:\Users\owner\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\hosting\deploy.js:29:21)
+    at module.exports (C:\Users\owner\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\hosting\deploy.js:63:12)
+    at _chain (C:\Users\owner\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:22:40)
+[error] 
+[error] Error: An unexpected error has occurred.
